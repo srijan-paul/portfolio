@@ -33,16 +33,16 @@
       </ProjectCard>
 
       <ProjectCard
-        title="Mad Carbon"
-        link="https://github.com/srijan-paul/bullet_hell"
+        title="Shriek"
+        link="https://github.com/srijan-paul/horror-game"
         :labels="[
           { name: 'Lua', className: 'label-lua' },
           { name: 'Love2D', className: 'label-love' },
         ]"
       >
-        A retro bullet hell game written in Lua with the Love2D game framework. The player explores
-        a dungeon filled with monsters, critters and treasures to reach the orb of truth. Offers a
-        variety of weapons, items and a level editor that can be used to craft levels.
+        A topdown RPG horror game written using the Love2D game engine. Shriek is an atmospheric and
+        story driven horror game inspired by Indie games like Last Train Home and No Delivery. The
+        Game is in a playable state but still a Work In Progress at the moment.
       </ProjectCard>
 
       <ProjectCard
