@@ -12,7 +12,7 @@
     </p>
 
     <div class="button-list">
-      <Button name="Resume" />
+      <Button name="Resume" url="https://drive.google.com/file/d/12qcy7QioXSkuqelq_TdVTydzw_vKfhTa/view?usp=sharing" />
       <Button name="Blog" url="https://srijan-paul.github.io/blog" />
     </div>
   </div>
