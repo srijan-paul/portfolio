@@ -1,7 +1,9 @@
 <template>
-  <div class="button" @click="handleClick">
-    {{ name }}
-  </div>
+  <a :href="url" target="_blank">
+    <div class="button">
+      {{ name }}
+    </div>
+  </a>
 </template>
 
 <script>
@@ -14,16 +16,20 @@ export default {
     },
     url: String,
   },
-
-  methods: {
-    handleClick() {
-      if (this.url) window.open(this.url, "_blank");
-    },
-  },
 };
 </script>
 
 <style scoped>
+.button {
+  color: black;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+  outline: none;
+}
+
 .button:hover {
   color: white;
   background-color: var(--hlColor);

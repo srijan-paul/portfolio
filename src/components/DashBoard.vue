@@ -6,9 +6,9 @@
     <MediaIcons />
 
     <p class="about">
-      Hi, I'm a 2nd year college undergrad studying Computer Science. Also a
+      Hi, I'm a 2nd year undergrad studying Computer Science. Also a
       programmer and a hobbyist gamedev. I like compiler design and
-      occassionally tinker with web stuff.
+      occassionally tinker with gamedev and web stuff.
     </p>
 
     <div class="button-list">
@@ -58,6 +58,7 @@ h1 {
 
 .button-list {
   width: 50%;
+  gap: 5%;
   margin: auto;
   display: flex;
   flex-direction: row;

@@ -1,14 +1,10 @@
 <template>
   <div style="display:inline-block" class="icon">
     <div class="tooltip">
-      <img
-        :src="require(`../assets/${name}`)"
-        :width="size"
-        :height="size"
-        :alt="alt"
-      />
+      <img :src="require(`../assets/${name}`)" :width="size" :height="size" :alt="alt" />
       <span class="tooltip-text">{{ text }}</span>
     </div>
+    <br>
   </div>
 </template>
 

@@ -8,6 +8,10 @@
       <Tools />
       <hr />
       <ProjectList />
+      <hr />
+      <OtherProjects />
+      <hr />
+      <Contact />
     </div>
     <Footer />
   </section>
@@ -19,6 +23,8 @@ import ProjectList from "./components/ProjectList";
 import CardList from "@/components/CardList";
 import Tools from "@/components/Tools";
 import Footer from "@/components/Footer";
+import OtherProjects from "@/components/OtherProjects";
+import Contact from "@/components/Contact";
 
 export default {
   name: "App",
@@ -28,6 +34,8 @@ export default {
     CardList,
     Tools,
     Footer,
+    OtherProjects,
+    Contact,
   },
 };
 </script>
@@ -35,12 +43,15 @@ export default {
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 :root {
   --hlColor: #ee5253;
   --bgColor: #ffffff;
   --fgColor: #333333;
+  --fontSans: "Poppins", "Calibre", "sans-serif";
 }
 
 body {
@@ -79,7 +90,10 @@ h6 {
 
 @media only screen and (max-width: 600px) {
   .wrapper {
-    width: 90%;
+    width: 100%;
+  }
+  #app {
+    width: 95%;
   }
 }
 </style>
