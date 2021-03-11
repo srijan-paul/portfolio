@@ -18,7 +18,7 @@
     </div>
 
     <div>
-      <a :href="link"><span class="btn">Github</span></a>
+      <a class="link-git" :href="link"><span class="btn">Github</span></a>
     </div>
   </div>
 </template>
@@ -51,7 +51,7 @@ export default {
   display: inline-block;
 }
 
-a {
+.link-git {
   text-decoration: inherit;
   color: inherit;
   opacity: 0.8;

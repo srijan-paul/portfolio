@@ -1,5 +1,5 @@
 <template>
-  <a :href="url" target="_blank">
+  <a class="btn-link" :href="url" target="_blank">
     <div class="button">
       {{ name }}
     </div>
@@ -24,7 +24,7 @@ export default {
   color: black;
 }
 
-a {
+.btn-link {
   color: inherit;
   text-decoration: inherit;
   outline: none;
